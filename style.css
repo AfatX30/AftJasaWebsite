@@ -1,0 +1,143 @@
+body {
+    background-image: url('5515158.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    color: rgb(214, 207, 207);
+}
+
+.halaman {
+    text-align: center;
+}
+
+.halaman a {
+    color: hwb(0 83% 12%);
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.halaman a:hover {
+    background: black;
+    border-radius: 30px;
+}
+
+.content {
+    text-align: center;
+    z-index: 1;
+    font-style: italic;
+}
+
+.gambar {
+    margin-top: 50px;
+    padding: -40px;
+}
+
+.image img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    text-align: center;
+    padding: 12px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.animated-text {
+    display: inline-block;
+    font-size: 24px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s forwards;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+.forum,
+.login {
+    width: 45%;
+    text-align: center;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: whitesmoke;
+    font-size: larger;
+    font-style: italic;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #2a57c9;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(19, 203, 154);
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.h2 {
+    margin-bottom: 20px;
+    background-position: 0;
+    border-radius: 900px;
+}
+
+.h2 img {
+    border-radius: 800px;
+    animation: moveLeftRight 3s linear infinite;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}

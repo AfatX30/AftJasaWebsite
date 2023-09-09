@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(17_liquidbackgrounds_2_1600x1200_1.jpg);
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: whitesmoke;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 0;
+    color: whitesmoke;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ddd;
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 251, 255, 0.533);
+    border-radius: 5px;
+}
+
+.contact-links a:hover {
+    background-color: whitesmoke;
+}
+
+.email-form {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 0;
+color: white;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0aeae7;
+}
+.halaman {
+    text-align: center;
+    padding: 0x;
+}
+
+.halaman a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.halaman a:hover {
+    background: black;
+    border-radius: 30px;
+}
